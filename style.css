@@ -81,3 +81,12 @@ body{
     margin-bottom: 10rem;
     color: white;
 }
+
+footer{
+    background-color: #761212f2;
+    border: 2px #000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    color: white;
+    text-align: center;
+}
