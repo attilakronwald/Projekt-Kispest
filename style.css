@@ -13,7 +13,6 @@ body{
 
 .dropbtn {
     background-color: #3498db00;
-    color: white;
     font-size: 1vw;
     font-weight: bold;
     border: none;
@@ -21,6 +20,7 @@ body{
     display: inline-block;
     transition: 0.2s ease-out;
     position: relative;
+    margin: 0;
   }
   
   .dropdown {
@@ -43,7 +43,7 @@ body{
   }
   
   .dropdown-content a {
-    color: white;
+    
     display: inline-block; 
     text-decoration: none;
     transition: 0.2s;
