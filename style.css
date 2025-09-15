@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+header{
+    font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
+
+.dropbtn {
+    background-color: #3498db00;
+    color: white;
+    font-size: 1vw;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.2s ease-out;
+    position: relative;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    position: relative;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    white-space: nowrap;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    display: flex;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    display: inline-block; 
+    text-decoration: none;
+    transition: 0.2s;
+    font-size: 0.9vw; 
+    word-spacing: 0.5vw;
+    font-weight: bolder;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    max-height: 12.5rem;
+    display: flex; 
+  }
+  .dropdown-content a:hover {
+    background-color: #0000008d;
+    color: white;
+  }
+  
+  .dropdown:hover .dropbtn {
+    opacity: 0;  
+    pointer-events: none; 
+  }
