@@ -114,6 +114,7 @@ body{
     box-shadow: 0 0 10px #000;
     margin-bottom: 10rem;
     color: white;
+    overflow: hidden;
 }
 p{
   text-indent: 1rem;
